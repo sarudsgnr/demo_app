@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Template &middot; Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/common.css" rel="stylesheet">
+    <link href="../assets/css/home-page.css" rel="stylesheet">
+   <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+      body {
+        padding-bottom: 40px 0 0 0 ;
+      }
+	  .top-header{
+		  padding-top: 20px;
+		  margin:0;
+		  background:url(../assets/img/images/top-head-bg.jpg) no-repeat left top #82c6ce;
+	  }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 960px;
+		padding:0 10px;
+      }
+
+      /* Main marketing message and sign up button */
+
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+	  .lend-btn{
+		  font:bold 18px Arial, Helvetica, sans-serif !important;
+		  text-transform:uppercase;
+	  }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+   <%= stylesheet_link_tag "application" %>
+   <%= stylesheet_link_tag "bootstrap" %>
+   <%= stylesheet_link_tag "common" %>
+   <%= stylesheet_link_tag "home-page" %>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+  </head>
+
+  <body>
+    
+  <!--top header-->
+	<div class="top-header">
+    <div class="container-narrow bottom-30">
+
+      <div class="masthead">
+      <ul class="nav nav-pills pull-left">
+          <li><a class="no-pad01" href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li class="no-border"><a href="#">Loan on behalf of someone else</a></li>
+        </ul>
+        <ul class="nav nav-pills pull-right">
+          <li><a class="sign-in" href="#">Join</a></li>
+          <li class="no-border"><a class="sign-in" href="#">Sign in</a></li>
+        </ul>
+         <hr>
+         <a href="#"><h1 class="pull-left" id="logo">Milaap</h1></a>
+         <div class="main-nav pull-right">
+         	<ul>
+            	<li>
+                	<a class="btns" href="#">The impact areas</a>
+                </li>
+                <li>
+                	<a class="btns" href="#">How it works</a>
+                </li>
+                <a class="btn btn-large btn-success lend-btn" href="#">Lend a Little</a>
+            </ul>
+         </div>
+       <div class="clearfix"></div>  
+      </div>
+      <div class="top-white-border"></div>
+      <h1 class="title2">This is the main <strong>title</strong></h1>
+		<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+<!---/top header--->
+<div class="clearfix"></div>
+<div class="rough-wallbg">
+	<div class="container-narrow" style="height:600px;">
+    	<div class="span3 no-margin02">
+        	fkjgkjngbkjgbkjkj
+        </div>
+		<div id="right-main-cont" class="span7 pull-right">
+        	<%= yield %>
+        
+        </div>
+	</div>
+</div>      
+      <div class="footer">
+        <div class="container-narrow foot-cont">
+        	<div class="pull-left left-menu">
+            	<ul>
+                	<li>
+                    	<span>Lend a Little</span>
+                        <p><a href="#">Loan</a>  |  <a href="#">Do More</a>  |  <a href="">Tell Your Friends</a>  |  <a href="">Our Rockstar Fundraisers</a></p>
+                    </li>
+                    <div class="clearfix"></div>
+                    <li>
+                    	<span>Make an impact</span>
+                        <p><a href="#">Education & Training</a>  |  <a href="#">Energy</a>  |  <a href="">Sanitation</a>  |  <a href="">Water</a></p>
+                    </li>
+                    <div class="clearfix"></div>
+                    <li>
+                    	<span>how it works</span>
+                        <p><a href="#">About Micro Lending</a>  |  <a href="#">How We Select Field Partners</a>  |  <a href="">Borrowers Outreach</a>  |  <a href="">Risk & Due Diligence</a> <br/>  <a href="">How Milaap Sustains itself </a> |  <a href="">FAQs </a></p>
+                    </li>
+                    <div class="clearfix"></div>
+                    <li>
+                    	<span>about us</span>
+                        <p><a href="#">Overview </a>  |  <a href="#">The Milaap Team</a>  |  <a href="">Our Field Partners</a>  |  <a href="">Corporate Sponsors</a> |  <a href="">Press & Media </a> |  <a href="">Contact Us </a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="pull-right right-cont">
+            	<a class="btn btn-large btn-success lend-btn" href="#">Lend a Little</a>
+                <form>
+                	<label>Stay Informed </label>
+                    <input type="text" name="Your email here" placeholder="Your Email Here">
+                </form>
+                <ul>
+                	<li class="no-margin02">
+                    	<img src="../assets/img/images/fb-icn.png">
+                    </li>
+                    <li>
+                    	<img src="../assets/img/images/tw-icn.png">
+                    </li>
+                    <li>
+                    	<img src="../assets/img/images/vim-icn.png">
+                    </li>
+                    <li>
+                    	<img src="../assets/img/images/flcr-icn.png">
+                    </li>
+                </ul>
+            </div>
+         <div class="clearfix"></div>   	
+        </div>
+      <div class="clearfix"></div> 
+      <center>
+      	<span class="coppyright">&copy; 2010 - 2012 Milaap.org</span>
+      </center> 
+      </div>
+ 
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
